@@ -5,6 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/davidflorezrestrepo/microservices-with-spring-cloud/AplicationProperties
+          uri: https://github.com/davidflorezrestrepo/microservices-with-spring-cloud
+          search-paths:
+          - AplicationProperties
           #username: uname
           #password: passs
