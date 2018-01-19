@@ -7,6 +7,7 @@ spring:
         git:
           uri: https://github.com/davidflorezrestrepo/microservices-with-spring-cloud
           search-paths:
-          - AplicationProperties
+          - 'ApplicationProperties'
+          - 'ApplicationProperties/station*'
           #username: uname
           #password: passs
